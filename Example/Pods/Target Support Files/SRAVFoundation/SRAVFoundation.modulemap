@@ -1,0 +1,6 @@
+framework module SRAVFoundation {
+  umbrella header "SRAVFoundation-umbrella.h"
+
+  export *
+  module * { export * }
+}

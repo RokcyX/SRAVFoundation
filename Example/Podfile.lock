@@ -1,0 +1,16 @@
+PODS:
+  - SRAVFoundation (0.1.0)
+
+DEPENDENCIES:
+  - SRAVFoundation (from `../`)
+
+EXTERNAL SOURCES:
+  SRAVFoundation:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SRAVFoundation: 33d2b8dcff12779e1ac600edc7dcc8ff41279076
+
+PODFILE CHECKSUM: d8f6f68f190fba27387bcb7b447e5d26d84f180b
+
+COCOAPODS: 1.8.3

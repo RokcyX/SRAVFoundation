@@ -1,0 +1,22 @@
+{
+  "name": "SRAVFoundation",
+  "version": "0.1.0",
+  "summary": "A short description of SRAVFoundation.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zhoujiamin@dgg.net/SRAVFoundation",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhoujiamin@dgg.net": "zhoujiamin"
+  },
+  "source": {
+    "git": "https://github.com/zhoujiamin@dgg.net/SRAVFoundation.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SRAVFoundation/Classes/**/*"
+}
