@@ -9,5 +9,6 @@
 #define SRAVFoundation_h
 
 #import "SRAudioPlayTool.h"
+#import "SRAudioRecordTool.h"
 
 #endif /* SRAVFoundation_h */

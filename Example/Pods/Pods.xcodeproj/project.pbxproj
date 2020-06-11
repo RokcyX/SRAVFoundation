@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1AC62E7588F48428053E8AFAB5020DBE /* SRAVFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6DB2D1BB66E7557F553E94DC593BD6 /* SRAVFoundation-dummy.m */; };
+		2E88F899DC52D2E930B5F2151DD93D4F /* SRMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = B7D7FB9B3BC73B76651D4F13DB2C26E3 /* SRMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		31BE21FA58F324780AB49AB2E29316C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		44395871DD4607540C1EB9CB44382D26 /* SRAudioRecordTool.h in Headers */ = {isa = PBXBuildFile; fileRef = D47CEB884A9EF2C78742CF6EC84477BD /* SRAudioRecordTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		463D0959F84B8E1F1D5BA80613C898F2 /* Pods-SRAVFoundation_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CB7C36E1A158ADF3BDDC26BCA1B681F /* Pods-SRAVFoundation_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50BC8D577E8E678483CF76238A96E3F6 /* SRAVFoundation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 383F9F78728D6222BBE6D104CD6B1636 /* SRAVFoundation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F957158D4A4D90448B26078150F0DDE /* SRAVFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = D08370F2D359808EF504D0BD039941A9 /* SRAVFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		801D716D896E695A8F0642FA29E9D481 /* Pods-SRAVFoundation_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 845C170A9601B5C9C98C81023E00F675 /* Pods-SRAVFoundation_Example-dummy.m */; };
-		82BE6C1A2490DA110077C362 /* SRAVFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 82BE6C192490DA110077C362 /* SRAVFoundation.h */; };
-		82BE6C222490DA7E0077C362 /* SRAudioPlayTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 82BE6C202490DA7E0077C362 /* SRAudioPlayTool.h */; };
-		82BE6C232490DA7E0077C362 /* SRAudioPlayTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BE6C212490DA7E0077C362 /* SRAudioPlayTool.m */; };
-		82BE6C282490DD750077C362 /* SRMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 82BE6C272490DD750077C362 /* SRMacro.h */; };
-		82BE6C2B2490F47E0077C362 /* SRAudioRecordTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 82BE6C292490F47E0077C362 /* SRAudioRecordTool.h */; };
-		82BE6C2C2490F47E0077C362 /* SRAudioRecordTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BE6C2A2490F47E0077C362 /* SRAudioRecordTool.m */; };
-		C3A5E2BF6FD8462A46AE98DA6ECC407E /* SRAVFoundation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 639F5E2E01C60723BBF8D7B337BE17B1 /* SRAVFoundation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D0F6D325FCC1E9B32C6071BDDE08C08 /* SRAudioPlayTool.h in Headers */ = {isa = PBXBuildFile; fileRef = AEAC13FD2DC6E6A04B5A733476306428 /* SRAudioPlayTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C4F3A730E3433D812831346BD3789543 /* Pods-SRAVFoundation_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99B58BEC59403971FD97D050C13307BC /* Pods-SRAVFoundation_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C6BC9AEC2A36F62B70869AC1498ADBAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		CF87A55834B5872F76DF0DA809AB8B1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		E1072B99C27C94ADE764C0F218D5E136 /* Pods-SRAVFoundation_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D46C208F9DFF50FECE3693239706CF /* Pods-SRAVFoundation_Tests-dummy.m */; };
-		EF176657031F18FE42829E539DCAC182 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		EF864A0EFBF32E76DEEDFCA48C116A94 /* SRAVFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36526BC5FBA8DD6FE8C25A0F9983C5B7 /* SRAVFoundation-dummy.m */; };
+		E1858DCAD1CB26001369DF71C11E0A32 /* SRAudioRecordTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4B2A230FB2CD1A048A4EA1CD0466BC /* SRAudioRecordTool.m */; };
+		F0003A95A0D7F294E60071C9822ACE6D /* SRAudioPlayTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 78EF956511E633192B28920411C35CB0 /* SRAudioPlayTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,43 +42,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		13C550242E929BB163D34BCA02DD746C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		079F18B0617C5BAA5AC34D46A3BC0195 /* SRAVFoundation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SRAVFoundation.modulemap; sourceTree = "<group>"; };
+		0C42FC7F959A9323B16A6C6F9663D74B /* SRAVFoundation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SRAVFoundation.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		13E1E4B7473141889BAF17EA5A9F9324 /* Pods-SRAVFoundation_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SRAVFoundation_Example.modulemap"; sourceTree = "<group>"; };
 		173AF67ACD06045EC687465B2B130026 /* Pods-SRAVFoundation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SRAVFoundation_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		2158777BE0F83AC2F42BD5C1B32892F6 /* SRAVFoundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SRAVFoundation-prefix.pch"; sourceTree = "<group>"; };
+		1C6DB2D1BB66E7557F553E94DC593BD6 /* SRAVFoundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SRAVFoundation-dummy.m"; sourceTree = "<group>"; };
+		266E04DC4A55B3745C702E7B2F886733 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2C1C85067FD4707C91DF5F544DD75794 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2E815420ECB86BAAEDABEE40195CE2FD /* SRAVFoundation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SRAVFoundation-Info.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		36526BC5FBA8DD6FE8C25A0F9983C5B7 /* SRAVFoundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SRAVFoundation-dummy.m"; sourceTree = "<group>"; };
+		383F9F78728D6222BBE6D104CD6B1636 /* SRAVFoundation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SRAVFoundation-umbrella.h"; sourceTree = "<group>"; };
 		3F52C35AA57390CC4717CFEFAEFD8AFC /* Pods-SRAVFoundation_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SRAVFoundation_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		639F5E2E01C60723BBF8D7B337BE17B1 /* SRAVFoundation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SRAVFoundation-umbrella.h"; sourceTree = "<group>"; };
+		4C4B2A230FB2CD1A048A4EA1CD0466BC /* SRAudioRecordTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SRAudioRecordTool.m; sourceTree = "<group>"; };
+		6185E80795597A4B2B246ADCE1833E7D /* SRAVFoundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SRAVFoundation-prefix.pch"; sourceTree = "<group>"; };
 		6CB7C36E1A158ADF3BDDC26BCA1B681F /* Pods-SRAVFoundation_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SRAVFoundation_Example-umbrella.h"; sourceTree = "<group>"; };
-		6D7FACE5FA742A8FCD22A4E5B8C293D6 /* Pods_SRAVFoundation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SRAVFoundation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6DEA77C41D849774A99561C692213C61 /* SRAVFoundation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SRAVFoundation.modulemap; sourceTree = "<group>"; };
+		6D7FACE5FA742A8FCD22A4E5B8C293D6 /* Pods_SRAVFoundation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SRAVFoundation_Tests.framework; path = "Pods-SRAVFoundation_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77E611007286E64A5946A76745AE41DF /* Pods-SRAVFoundation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SRAVFoundation_Example.release.xcconfig"; sourceTree = "<group>"; };
+		78EF956511E633192B28920411C35CB0 /* SRAudioPlayTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SRAudioPlayTool.m; sourceTree = "<group>"; };
 		7BF4A91D5E3C9A48CF6D1B7406EAC9C7 /* Pods-SRAVFoundation_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SRAVFoundation_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		7E7A1477358B427BAA97694D6EC77CA2 /* SRAVFoundation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SRAVFoundation.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		817FBD4AEC9F8CE4989BE95DF76533F4 /* Pods-SRAVFoundation_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SRAVFoundation_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		82BE6C192490DA110077C362 /* SRAVFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SRAVFoundation.h; sourceTree = "<group>"; };
-		82BE6C202490DA7E0077C362 /* SRAudioPlayTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SRAudioPlayTool.h; sourceTree = "<group>"; };
-		82BE6C212490DA7E0077C362 /* SRAudioPlayTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRAudioPlayTool.m; sourceTree = "<group>"; };
-		82BE6C272490DD750077C362 /* SRMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SRMacro.h; sourceTree = "<group>"; };
-		82BE6C292490F47E0077C362 /* SRAudioRecordTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SRAudioRecordTool.h; sourceTree = "<group>"; };
-		82BE6C2A2490F47E0077C362 /* SRAudioRecordTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRAudioRecordTool.m; sourceTree = "<group>"; };
 		845C170A9601B5C9C98C81023E00F675 /* Pods-SRAVFoundation_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SRAVFoundation_Example-dummy.m"; sourceTree = "<group>"; };
 		85D46C208F9DFF50FECE3693239706CF /* Pods-SRAVFoundation_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SRAVFoundation_Tests-dummy.m"; sourceTree = "<group>"; };
-		87A30AE56B5A211BE4C44B3F19D177A8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8904CA075D4F1FF06977F1D72DA7F918 /* Pods-SRAVFoundation_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SRAVFoundation_Tests.modulemap"; sourceTree = "<group>"; };
 		8C7AFC62F3F4229D51EBCE9651A19448 /* Pods-SRAVFoundation_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SRAVFoundation_Tests-Info.plist"; sourceTree = "<group>"; };
-		8ED3957CB89C3CCF2D4CF0A0A3F615F1 /* SRAVFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SRAVFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ED3957CB89C3CCF2D4CF0A0A3F615F1 /* SRAVFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SRAVFoundation.framework; path = SRAVFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		99B58BEC59403971FD97D050C13307BC /* Pods-SRAVFoundation_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SRAVFoundation_Tests-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A648B90742D410DF5EE7826EA4DF75E6 /* Pods-SRAVFoundation_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SRAVFoundation_Example-Info.plist"; sourceTree = "<group>"; };
+		AEAC13FD2DC6E6A04B5A733476306428 /* SRAudioPlayTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SRAudioPlayTool.h; sourceTree = "<group>"; };
 		B04A353181D30948084345B837F7F947 /* Pods-SRAVFoundation_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SRAVFoundation_Example-frameworks.sh"; sourceTree = "<group>"; };
-		BED12C43C5E30B5C4EE67BD747F40496 /* SRAVFoundation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SRAVFoundation.xcconfig; sourceTree = "<group>"; };
-		C6BA5E68E142E65AE1B7828E4112D1BD /* SRAVFoundation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SRAVFoundation-Info.plist"; sourceTree = "<group>"; };
+		B7D7FB9B3BC73B76651D4F13DB2C26E3 /* SRMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRMacro.h; path = SRAVFoundation/Classes/SRMacro.h; sourceTree = "<group>"; };
 		C8A0760E27A90E41C09645D939A0A737 /* Pods-SRAVFoundation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SRAVFoundation_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D08370F2D359808EF504D0BD039941A9 /* SRAVFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRAVFoundation.h; path = SRAVFoundation/Classes/SRAVFoundation.h; sourceTree = "<group>"; };
+		D47CEB884A9EF2C78742CF6EC84477BD /* SRAudioRecordTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SRAudioRecordTool.h; sourceTree = "<group>"; };
+		E3DACEE217ED96B6D4C2A29D58817F21 /* SRAVFoundation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SRAVFoundation.xcconfig; sourceTree = "<group>"; };
 		E69BC79ED2FFFEFDD1ABC5495E300B74 /* Pods-SRAVFoundation_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SRAVFoundation_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EA54E3F3074BC22654B562514BAE8115 /* Pods-SRAVFoundation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SRAVFoundation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F6F8C584DBA5A639FD2617D7AAA88A57 /* Pods_SRAVFoundation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SRAVFoundation_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6F8C584DBA5A639FD2617D7AAA88A57 /* Pods_SRAVFoundation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SRAVFoundation_Example.framework; path = "Pods-SRAVFoundation_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,11 +90,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6DDFDF51C3BA622D3E8893F59492709A /* Frameworks */ = {
+		B5A18A2837495083EF65D9596C26062C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF176657031F18FE42829E539DCAC182 /* Foundation.framework in Frameworks */,
+				CF87A55834B5872F76DF0DA809AB8B1D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +125,43 @@
 			path = "Target Support Files/Pods-SRAVFoundation_Tests";
 			sourceTree = "<group>";
 		};
+		5707AD0C6A2DB4AE3D04A041155B0D26 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				266E04DC4A55B3745C702E7B2F886733 /* LICENSE */,
+				2C1C85067FD4707C91DF5F544DD75794 /* README.md */,
+				0C42FC7F959A9323B16A6C6F9663D74B /* SRAVFoundation.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		6DF49AC4FA0BF404649A28659CB07D1C /* SRAVFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				D08370F2D359808EF504D0BD039941A9 /* SRAVFoundation.h */,
+				B7D7FB9B3BC73B76651D4F13DB2C26E3 /* SRMacro.h */,
+				81132295361F2939A5DC69FE34CB755D /* Audio */,
+				5707AD0C6A2DB4AE3D04A041155B0D26 /* Pod */,
+				733FC857FD95185CBCA5DEDBF792E88F /* Support Files */,
+			);
+			name = SRAVFoundation;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		733FC857FD95185CBCA5DEDBF792E88F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				079F18B0617C5BAA5AC34D46A3BC0195 /* SRAVFoundation.modulemap */,
+				E3DACEE217ED96B6D4C2A29D58817F21 /* SRAVFoundation.xcconfig */,
+				1C6DB2D1BB66E7557F553E94DC593BD6 /* SRAVFoundation-dummy.m */,
+				2E815420ECB86BAAEDABEE40195CE2FD /* SRAVFoundation-Info.plist */,
+				6185E80795597A4B2B246ADCE1833E7D /* SRAVFoundation-prefix.pch */,
+				383F9F78728D6222BBE6D104CD6B1636 /* SRAVFoundation-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SRAVFoundation";
+			sourceTree = "<group>";
+		};
 		7363A62C05AEB62DB102884C026A7AF0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -135,42 +172,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7709AB992E33920ED649D4D01CF6A692 /* SRAVFoundation */ = {
+		81132295361F2939A5DC69FE34CB755D /* Audio */ = {
 			isa = PBXGroup;
 			children = (
-				8285F85124911267005BDA3B /* Category */,
-				82BE6C1B2490DA1B0077C362 /* Audio */,
-				BAF39FF97BFD22FF7FBB98F8C3F6E3EE /* Pod */,
-				DF82FF07B1EC9EC87E18C0D6C7D17013 /* Support Files */,
-				82BE6C192490DA110077C362 /* SRAVFoundation.h */,
-				82BE6C272490DD750077C362 /* SRMacro.h */,
+				AEAC13FD2DC6E6A04B5A733476306428 /* SRAudioPlayTool.h */,
+				78EF956511E633192B28920411C35CB0 /* SRAudioPlayTool.m */,
+				D47CEB884A9EF2C78742CF6EC84477BD /* SRAudioRecordTool.h */,
+				4C4B2A230FB2CD1A048A4EA1CD0466BC /* SRAudioRecordTool.m */,
 			);
-			name = SRAVFoundation;
-			path = ../..;
+			name = Audio;
+			path = SRAVFoundation/Classes/Audio;
 			sourceTree = "<group>";
 		};
-		8285F85124911267005BDA3B /* Category */ = {
+		940096A67B121FB474B6C8ED415AC6F7 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			path = Category;
-			sourceTree = "<group>";
-		};
-		82BE6C1B2490DA1B0077C362 /* Audio */ = {
-			isa = PBXGroup;
-			children = (
-				82BE6C202490DA7E0077C362 /* SRAudioPlayTool.h */,
-				82BE6C212490DA7E0077C362 /* SRAudioPlayTool.m */,
-				82BE6C292490F47E0077C362 /* SRAudioRecordTool.h */,
-				82BE6C2A2490F47E0077C362 /* SRAudioRecordTool.m */,
-			);
-			path = Audio;
-			sourceTree = "<group>";
-		};
-		876CBF1B7DF4586914317611A9381021 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				7709AB992E33920ED649D4D01CF6A692 /* SRAVFoundation */,
+				6DF49AC4FA0BF404649A28659CB07D1C /* SRAVFoundation */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -190,16 +207,6 @@
 			);
 			name = "Pods-SRAVFoundation_Example";
 			path = "Target Support Files/Pods-SRAVFoundation_Example";
-			sourceTree = "<group>";
-		};
-		BAF39FF97BFD22FF7FBB98F8C3F6E3EE /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				13C550242E929BB163D34BCA02DD746C /* LICENSE */,
-				87A30AE56B5A211BE4C44B3F19D177A8 /* README.md */,
-				7E7A1477358B427BAA97694D6EC77CA2 /* SRAVFoundation.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -223,7 +230,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				876CBF1B7DF4586914317611A9381021 /* Development Pods */,
+				940096A67B121FB474B6C8ED415AC6F7 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				7363A62C05AEB62DB102884C026A7AF0 /* Products */,
 				C4DD1CCE23C7BFDC1DA93798FE2EC7B7 /* Targets Support Files */,
@@ -238,32 +245,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DF82FF07B1EC9EC87E18C0D6C7D17013 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6DEA77C41D849774A99561C692213C61 /* SRAVFoundation.modulemap */,
-				BED12C43C5E30B5C4EE67BD747F40496 /* SRAVFoundation.xcconfig */,
-				36526BC5FBA8DD6FE8C25A0F9983C5B7 /* SRAVFoundation-dummy.m */,
-				C6BA5E68E142E65AE1B7828E4112D1BD /* SRAVFoundation-Info.plist */,
-				2158777BE0F83AC2F42BD5C1B32892F6 /* SRAVFoundation-prefix.pch */,
-				639F5E2E01C60723BBF8D7B337BE17B1 /* SRAVFoundation-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SRAVFoundation";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		CCB7860533D9617178D8876180A2C5F1 /* Headers */ = {
+		4DE283C5DE5D18C29980BD41EED4422B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3A5E2BF6FD8462A46AE98DA6ECC407E /* SRAVFoundation-umbrella.h in Headers */,
-				82BE6C222490DA7E0077C362 /* SRAudioPlayTool.h in Headers */,
-				82BE6C2B2490F47E0077C362 /* SRAudioRecordTool.h in Headers */,
-				82BE6C282490DD750077C362 /* SRMacro.h in Headers */,
-				82BE6C1A2490DA110077C362 /* SRAVFoundation.h in Headers */,
+				9D0F6D325FCC1E9B32C6071BDDE08C08 /* SRAudioPlayTool.h in Headers */,
+				44395871DD4607540C1EB9CB44382D26 /* SRAudioRecordTool.h in Headers */,
+				50BC8D577E8E678483CF76238A96E3F6 /* SRAVFoundation-umbrella.h in Headers */,
+				5F957158D4A4D90448B26078150F0DDE /* SRAVFoundation.h in Headers */,
+				2E88F899DC52D2E930B5F2151DD93D4F /* SRMacro.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,12 +319,12 @@
 		};
 		F510045046CF06885F8AF108A626B4AC /* SRAVFoundation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C86EE87B757A6C5CDEB2C07A787795C0 /* Build configuration list for PBXNativeTarget "SRAVFoundation" */;
+			buildConfigurationList = 5618DACB70778B94A951A28BC9F33691 /* Build configuration list for PBXNativeTarget "SRAVFoundation" */;
 			buildPhases = (
-				CCB7860533D9617178D8876180A2C5F1 /* Headers */,
-				8D3C76533EE0EBBA5F6196510ADF0F72 /* Sources */,
-				6DDFDF51C3BA622D3E8893F59492709A /* Frameworks */,
-				719FE41D0A25B430B59935B88E89EAB8 /* Resources */,
+				4DE283C5DE5D18C29980BD41EED4422B /* Headers */,
+				0502B05F4ABA13881AE6E4EE144B4864 /* Sources */,
+				B5A18A2837495083EF65D9596C26062C /* Frameworks */,
+				7DD03C69DF0228AD60F969D7C6FB0E6D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -372,7 +365,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		719FE41D0A25B430B59935B88E89EAB8 /* Resources */ = {
+		7DD03C69DF0228AD60F969D7C6FB0E6D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -396,6 +389,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0502B05F4ABA13881AE6E4EE144B4864 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0003A95A0D7F294E60071C9822ACE6D /* SRAudioPlayTool.m in Sources */,
+				E1858DCAD1CB26001369DF71C11E0A32 /* SRAudioRecordTool.m in Sources */,
+				1AC62E7588F48428053E8AFAB5020DBE /* SRAVFoundation-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6778CD87A818E6C553BB663BA4F43923 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -409,16 +412,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				801D716D896E695A8F0642FA29E9D481 /* Pods-SRAVFoundation_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8D3C76533EE0EBBA5F6196510ADF0F72 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EF864A0EFBF32E76DEEDFCA48C116A94 /* SRAVFoundation-dummy.m in Sources */,
-				82BE6C2C2490F47E0077C362 /* SRAudioRecordTool.m in Sources */,
-				82BE6C232490DA7E0077C362 /* SRAudioPlayTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +433,69 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		1E408FA6A4401CD9D59D73B2F7BB6810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3DACEE217ED96B6D4C2A29D58817F21 /* SRAVFoundation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SRAVFoundation/SRAVFoundation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SRAVFoundation/SRAVFoundation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SRAVFoundation/SRAVFoundation.modulemap";
+				PRODUCT_MODULE_NAME = SRAVFoundation;
+				PRODUCT_NAME = SRAVFoundation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		427A0C333D7F9EC7ED04A0C82B8D5F17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3DACEE217ED96B6D4C2A29D58817F21 /* SRAVFoundation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SRAVFoundation/SRAVFoundation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SRAVFoundation/SRAVFoundation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SRAVFoundation/SRAVFoundation.modulemap";
+				PRODUCT_MODULE_NAME = SRAVFoundation;
+				PRODUCT_NAME = SRAVFoundation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -493,41 +549,10 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		65396B147FBC19A74A918B26C04AF8AF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BED12C43C5E30B5C4EE67BD747F40496 /* SRAVFoundation.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SRAVFoundation/SRAVFoundation-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SRAVFoundation/SRAVFoundation-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SRAVFoundation/SRAVFoundation.modulemap";
-				PRODUCT_MODULE_NAME = SRAVFoundation;
-				PRODUCT_NAME = SRAVFoundation;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -661,37 +686,6 @@
 			};
 			name = Debug;
 		};
-		853D132F6EB217B9D12682CBE7367CAB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BED12C43C5E30B5C4EE67BD747F40496 /* SRAVFoundation.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SRAVFoundation/SRAVFoundation-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SRAVFoundation/SRAVFoundation-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SRAVFoundation/SRAVFoundation.modulemap";
-				PRODUCT_MODULE_NAME = SRAVFoundation;
-				PRODUCT_NAME = SRAVFoundation;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		93456A47121623D1964DEECC15D3A633 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C8A0760E27A90E41C09645D939A0A737 /* Pods-SRAVFoundation_Tests.release.xcconfig */;
@@ -781,20 +775,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		5618DACB70778B94A951A28BC9F33691 /* Build configuration list for PBXNativeTarget "SRAVFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				427A0C333D7F9EC7ED04A0C82B8D5F17 /* Debug */,
+				1E408FA6A4401CD9D59D73B2F7BB6810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6593B63F6241C8A8D72D0BA2C6795EFE /* Build configuration list for PBXNativeTarget "Pods-SRAVFoundation_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84C030F4D79BFF78F14219A5C4E2E678 /* Debug */,
 				FF6CB696318811B6799043C48ABEDE1B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C86EE87B757A6C5CDEB2C07A787795C0 /* Build configuration list for PBXNativeTarget "SRAVFoundation" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				853D132F6EB217B9D12682CBE7367CAB /* Debug */,
-				65396B147FBC19A74A918B26C04AF8AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

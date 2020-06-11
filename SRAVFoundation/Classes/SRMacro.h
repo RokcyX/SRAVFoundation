@@ -8,7 +8,7 @@
 #ifndef SRMacro_h
 #define SRMacro_h
 
-#define SRSigletonDef + (instancetype)shareInstance;\
+#define SRSingletonDef + (instancetype)shareInstance;\
 +(instancetype) alloc __attribute__((unavailable("请使用shareInstance")));\
 +(instancetype) new __attribute__((unavailable("请使用shareInstance")));\
 -(instancetype) copy __attribute__((unavailable("请使用shareInstance")));\
@@ -22,18 +22,14 @@
         _instance = [[self alloc] init];\
     });\
     return _instance;\
-}\
-\
-+ (instancetype)allocWithZone:(struct _NSZone *)zone {\
-    return [self shareInstance];\
 }
 
 //懒加载属性宏
-#define SRLazyProperty(returnClass,propertyName,defaultValue) -(returnClass)propertyName{\
-if(!_##propertyName){\
-_##propertyName=defaultValue;\
+#define SRLazyProperty(returnClass, propertyName, defaultValue) - (returnClass)propertyName {\
+if (!_##propertyName) {\
+    _##propertyName = defaultValue;\
 }\
-return _##propertyName;\
+    return _##propertyName;\
 }
 
 #endif /* SRMacro_h */

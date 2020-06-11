@@ -6,12 +6,15 @@
 //
 
 #import "SRAudioPlayTool.h"
+#import <UIKit/UIKit.h>
 
 @interface SRAudioPlayTool () <AVAudioPlayerDelegate>
 
 @property (nonatomic, strong) NSMutableDictionary<NSString *, AVAudioPlayer *> *playerDict;
 
 @property (nonatomic, strong) NSMutableDictionary<NSString *, SRAudioPlayCompletion> *completionDict;
+
+@property (nonatomic, assign) BOOL proximityDetect;
 
 @end
 
@@ -24,15 +27,6 @@ SRLazyProperty(NSMutableDictionary *, playerDict, [NSMutableDictionary dictionar
 SRLazyProperty(NSMutableDictionary *, completionDict, [NSMutableDictionary dictionary])
 
 #pragma mark - setter
-- (void)setAutoSwitchPlayMode:(BOOL)autoSwitchPlayMode {
-    _autoSwitchPlayMode = autoSwitchPlayMode;
-    if (autoSwitchPlayMode) {
-        [[UIDevice currentDevice] setProximityMonitoringEnabled:YES];
-        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(sensorProximityMotionStateChange:) name:UIDeviceProximityStateDidChangeNotification object:nil];
-    } else {
-        [[NSNotificationCenter defaultCenter] removeObserver:self];
-    }
-}
 
 - (void)sensorProximityMotionStateChange:(NSNotification *)noti {
     if ([[UIDevice currentDevice] proximityState]) {
@@ -42,13 +36,26 @@ SRLazyProperty(NSMutableDictionary *, completionDict, [NSMutableDictionary dicti
     }
 }
 
+- (void)setProximityDetect:(BOOL)proximityDetect {
+    _proximityDetect = proximityDetect;
+    if (proximityDetect) {
+        [[UIDevice currentDevice] setProximityMonitoringEnabled:YES];
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(sensorProximityMotionStateChange:) name:UIDeviceProximityStateDidChangeNotification object:nil];
+    } else {
+        [[UIDevice currentDevice] setProximityMonitoringEnabled:NO];
+        [[NSNotificationCenter defaultCenter] removeObserver:self];
+    }
+}
+
 #pragma mark - custom
+
 - (void)pause {
     for (AVAudioPlayer *audioPlayer in self.playerDict.allValues) {
         if (audioPlayer.isPlaying) {
             [audioPlayer pause];
         }
     }
+    self.proximityDetect = NO;
 }
 
 - (void)stop {
@@ -65,6 +72,9 @@ SRLazyProperty(NSMutableDictionary *, completionDict, [NSMutableDictionary dicti
     for (AVAudioPlayer *audioPlayer in self.playerDict.allValues) {
         [audioPlayer play];
     }
+    if (self.autoSwitchPlayMode && !self.proximityDetect) {
+        self.proximityDetect = YES;
+    }
 }
 
 - (AVAudioPlayer *)generateAudioPlayer:(NSURL *)url error:(NSError *__autoreleasing  _Nullable *)error {
@@ -76,12 +86,13 @@ SRLazyProperty(NSMutableDictionary *, completionDict, [NSMutableDictionary dicti
 }
 
 - (void)playWithUrl:(NSURL *)url errorCallback:(SRAudioPlayError)errorCallback completion:(SRAudioPlayCompletion)completion {
-    [self playWithUrl:url loopCount:1 errorCallback:errorCallback completion:completion];
+    [self playWithUrl:url loopCount:0 errorCallback:errorCallback completion:completion];
 }
 
 - (void)playWithUrl:(NSURL *)url loopCount:(NSInteger)loopCount errorCallback:(SRAudioPlayError)errorCallback completion:(SRAudioPlayCompletion)completion {
-    if ([AVAudioSession sharedInstance].category != AVAudioSessionCategoryPlayAndRecord && !self.autoSwitchPlayMode) {
-        [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayback error:nil];
+    [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayback error:nil];
+    if (self.autoSwitchPlayMode && !self.proximityDetect) {
+        self.proximityDetect = YES;
     }
     NSError *error;
     AVAudioPlayer *player = [self generateAudioPlayer:url error:&error];
@@ -99,7 +110,6 @@ SRLazyProperty(NSMutableDictionary *, completionDict, [NSMutableDictionary dicti
     }
 }
 
-
 /// 生成大小写字母、数字组成的随机字符串
 /// @param length 长度
 - (NSString *)randomStr:(NSInteger)length {
@@ -110,7 +120,7 @@ SRLazyProperty(NSMutableDictionary *, completionDict, [NSMutableDictionary dicti
             num = num % 57 + 48;
         }
         else if (num > 90 && num < 97) {
-            num = num%90+65;
+            num = num % 90 + 65;
         }
         ch[index] = num;
     }
@@ -119,7 +129,7 @@ SRLazyProperty(NSMutableDictionary *, completionDict, [NSMutableDictionary dicti
 
 #pragma mark - AVAudioPlayerDelegate
 - (void)audioPlayerDidFinishPlaying:(AVAudioPlayer *)player successfully:(BOOL)flag {
-    if ([self.playerDict.allValues containsObject:player] && player.currentTime == player.duration) {
+    if ([self.playerDict.allValues containsObject:player]) {
         NSString *removeKey = nil;
         for (NSString *key in self.playerDict.allKeys) {
             if (player == self.playerDict[key]) {
@@ -135,6 +145,14 @@ SRLazyProperty(NSMutableDictionary *, completionDict, [NSMutableDictionary dicti
             [self.playerDict setValue:nil forKey:removeKey];
         }
     }
+    //如果所有音频都播放完了，则停止距离检测
+    if (self.playerDict.allValues.count < 1 && self.proximityDetect) {
+        self.proximityDetect = NO;
+    }
+}
+
+- (void)audioPlayerDecodeErrorDidOccur:(AVAudioPlayer *)player error:(NSError *)error {
+    NSLog(@"---%@", error.localizedDescription);
 }
 
 @end

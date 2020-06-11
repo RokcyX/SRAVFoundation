@@ -10,6 +10,10 @@
 #endif
 #endif
 
+#import "SRAudioPlayTool.h"
+#import "SRAudioRecordTool.h"
+#import "SRAVFoundation.h"
+#import "SRMacro.h"
 
 FOUNDATION_EXPORT double SRAVFoundationVersionNumber;
 FOUNDATION_EXPORT const unsigned char SRAVFoundationVersionString[];
